@@ -1,0 +1,52 @@
+h1{
+    display: block;
+    text-align: center;
+    margin: 40 auto;
+}
+.semaforo {
+    background-color: black;
+    width: 100px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.semaforo .red-light {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: red;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.semaforo .yellow-light {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: yellow;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.semaforo .green-light {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: green;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.semaforo .rActive{
+    box-shadow: 0 0 10px 10px rgb(172, 23, 23);
+}
+.yActive{
+    box-shadow: 0 0 10px 10px rgb(226, 230, 12);
+}
+.gActive{
+    box-shadow: 0 0 10px 10px #4f9;
+}
