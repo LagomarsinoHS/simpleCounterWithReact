@@ -25,7 +25,6 @@ export function Lights(props) {
             <div className={"red-light" + (active === "red-light" ? " rActive" : "")} onClick={(e) => cambiaClase(e)}></div>
             <div className={"yellow-light" + (active === "yellow-light" ? " yActive" : "")} onClick={(e) => cambiaClase(e)}></div>
             <div className={`green-light ${gActive}`} onClick={(e) => cambiaClase(e)}></div>
-
         </div>
     )
 }
