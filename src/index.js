@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./css/style.css"
 import { Semaforo } from "./components/semaforo";
 
+import "./css/style.css";
 
 
 
-ReactDOM.render(< Semaforo />, document.querySelector("#root"));
+ReactDOM.render(<Semaforo />, document.querySelector("#root"))

@@ -1,47 +1,47 @@
 h1{
     display: block;
-    text-align: center;
     margin: 40 auto;
+    text-align: center;
 }
-.semaforo {
-    background-color: black;
+
+.semaforo{
     width: 100px;
     height: 280px;
+    background-color: black;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.semaforo .red-light {
+.red-light{
     width: 80px;
     height: 80px;
-    border-radius: 100%;
     background-color: red;
+    border-radius: 100%;
     margin: 5px;
     cursor: pointer;
 }
-
-.semaforo .yellow-light {
+.yellow-light{
     width: 80px;
     height: 80px;
-    border-radius: 100%;
     background-color: yellow;
+    border-radius: 100%;
     margin: 5px;
     cursor: pointer;
 }
-
-.semaforo .green-light {
+.green-light{
     width: 80px;
     height: 80px;
-    border-radius: 100%;
     background-color: green;
+    border-radius: 100%;
     margin: 5px;
     cursor: pointer;
 }
 
-.semaforo .rActive{
+.rActive{
     box-shadow: 0 0 10px 10px rgb(172, 23, 23);
 }
 .yActive{
