@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import { Semaforo } from "./components/semaforo";
 
 import "./css/style.css";
 
-
-
-ReactDOM.render(<Semaforo />, document.querySelector("#root"))
+const root = createRoot(document.querySelector("#root"));
+root.render(<Semaforo />);
